@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Insti CGPA Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .course-inputs {
+      margin-top: 20px;
+    }
+    .course-input {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Insti CGPA Calculator</h1>
+  <form id="cgpa-form">
+    <label for="total-courses">Enter total number of courses:</label>
+    <input type="number" id="total-courses" required>
+    <button type="submit">Submit</button>
+    <div class="course-inputs"></div>
+  </form>
+  <div id="cgpa-result"></div>
+
+  <script src="cgpa.js"></script>
+</body>
+</html>
